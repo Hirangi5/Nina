@@ -1,0 +1,1 @@
+export default function autoDownloadModel(autoDownloadModelName?: string, verbose?: boolean, withCuda?: boolean): Promise<"Models already exist. Skipping download." | "Model downloaded and compiled successfully">;
